@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abel">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="title">
+        <h1>CSS GRID</h1>
+    </header>
+    <div class="container">
+        <header class="header">
+            <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjQjcxQzFDIiBkPSJNMzguMSwxOC44Yy0wLjItMS41LTAuNS03LjgtMi05LjhjLTUuMy00LjItMTItNC0xMi00cy02LjctMC4yLTEyLDRjLTEuNCwyLTEuOSw4LjMtMiw5LjhsMC41LDkuMnYwLjJjMCwwLDEuOSw4LjMsMi43LDkuN2MwLjksMS44LDMuNiw1LjIsNS44LDYuNWMwLjksMC41LDMuMywwLjYsNSwwLjZjMS45LDAsNC4yLTAuMiw1LTAuNmMyLjItMS4xLDQuOC00LjYsNS44LTYuNWMwLjgtMS40LDIuNy05LjcsMi43LTkuN3YtMC4yTDM4LjEsMTguOHoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRkZDMTA3IiBkPSJNMzQuOSwyOWMtMC41LDAuNi0zLjQsNi4yLTMuNCw2LjJzLTAuNSwyLjIsMCw0LjJjMC41LDItMC41LDIuMi0wLjUsMi4ybC0xLjIsMS40bC0yLjItMC45aC02LjdsLTIuMiwwLjlsLTEuMi0xLjRjMCwwLTAuOS0wLjItMC41LTIuMmMwLjUtMiwwLTQuMiwwLTQuMnMtMy40LTUuNS0zLjktNi4yYy0wLjUtMC42LTAuOC0yLjgtMC44LTIuOGwxLjItMy41bC0wLjMtMTAuNmMwLDAsMC45LTEuNCwyLjItMi4zYzEuMS0wLjgsNC4yLTEuNyw0LjItMS43bDEuMSw3LjhjMCwwLDAuMywxLjcsMC4zLDEuOGMwLDAuMiwxLjEsMC41LDEuMSwwLjVoNC4xYzAsMCwxLjEtMC4zLDEuMS0wLjVjMC0wLjIsMC4zLTEuOCwwLjMtMS44bDEuMS03LjhjMCwwLDMuMSwwLjgsNC4yLDEuN2MwLjksMC45LDIsMi4zLDIsMi4zbC0wLjMsMTAuNWwxLjIsMy41QzM1LjcsMjYuMiwzNS40LDI4LjQsMzQuOSwyOXoiPjwvcGF0aD48cGF0aCBmaWxsPSIjRThCMDA2IiBkPSJNMzQuMywyN2wtMC42LDAuM2MtMS4yLDAuNy0xLjksMS4xLTIuNCwxLjNDMzAuOSwyOSwzMC4zLDI5LDMwLjEsMjlMMjcsMjkuMmwwLDAuNGwwLTAuNGMtMC40LDAtMC45LTAuMS0xLjItMC42Yy0wLjEtMC4xLTAuMy0wLjQtMC43LTFjLTAuMi0wLjItMC43LTAuMy0xLjEtMC4zcy0wLjgsMC0xLjEsMC4zYy0wLjQsMC42LTAuNiwwLjgtMC43LDFjLTAuMywwLjQtMC44LDAuNi0xLjIsMC42YzAsMCwwLDAsMCwwTDE3LjgsMjljLTAuMSwwLTAuNywwLTEuMy0wLjRjLTAuNC0wLjItMS4xLTAuNi0yLjMtMS4zbC0wLjctMC40Yy0wLjItMC4xLTAuNC0wLjMtMC40LTAuNmMtMC4xLTAuNCwwLjItMC44LDAuMy0wLjlsMS4zLTFjMC4xLTAuMSwwLjYtMC4zLDEuMS0wLjFjMC4yLDAuMSwwLjQsMC4xLDAuNywwLjJjMS4yLDAuNCwzLjUsMS4zLDUuNSwxLjRsMy43LDBjMi4xLTAuMSw0LjMtMSw1LjUtMS40YzAuMy0wLjEsMC41LTAuMiwwLjctMC4yYzAuNC0wLjIsMSwwLDEuMSwwLjFsMS4zLDFjMC4xLDAuMSwwLjQsMC40LDAuMywwLjlDMzQuOCwyNi42LDM0LjYsMjYuOCwzNC4zLDI3eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4MUQ0RkEiIGQ9Ik0yNS42IDI3LjJjMCAwIC42LjkuOCAxLjEuMi4zLjYuMy42LjNsMy4xLS4yYzAgMCAuNiAwIC45LS4zLjUtLjIgMi4yLTEuMiAzLTEuNy4zLS4yIDAtLjUgMC0uNUwzMi44IDI1YzAgMC0uMi0uMi0uNSAwLS45LjMtMy43IDEuNS02LjQgMS43QzI1LjEgMjYuOCAyNS42IDI3LjIgMjUuNiAyNy4yek0yMi40IDI3LjJjMCAwLS42LjktLjggMS4xLS4yLjMtLjYuMy0uNi4zbC0zLjEtLjJjMCAwLS42IDAtLjktLjMtLjUtLjItMi4yLTEuMi0zLTEuNy0uMy0uMiAwLS41IDAtLjVsMS4yLS45YzAgMCAuMi0uMi41IDAgLjkuMyAzLjcgMS41IDYuNCAxLjdDMjIuOSAyNi44IDIyLjQgMjcuMiAyMi40IDI3LjJ6Ij48L3BhdGg+PHBhdGggZmlsbD0iI0UxRjVGRSIgZD0iTTI3LjYgMjcuN2wyLjYgMCAyLjUtMS41TDMyIDI1LjFjLTEgLjQtMyAxLjItNS4xIDEuNUwyNy42IDI3Ljd6TTIxLjEgMjYuNkMxOSAyNi4zIDE3IDI1LjUgMTYgMjUuMWwtLjcgMS4xIDIuNSAxLjUgMi42IDBMMjEuMSAyNi42eiI+PC9wYXRoPjxwYXRoIGZpbGw9IiM4NTE0MTQiIGQ9Ik0zNy4zIDI4LjFoLjhjLjMgMCAuNi0uMy42LS42bC4zLThjMC0uMy0uMy0uNi0uNi0uNmgtLjNMMzcuMyAyOC4xek05LjkgMTguOEg5LjZjLS4zIDAtLjYuMy0uNi42bC4zIDhjMCAuMy4zLjYuNi42aC44TDkuOSAxOC44eiI+PC9wYXRoPjwvc3ZnPg=="/>
+            <h2>Diseño Responsivo</h2>
+        
+        </header>
+        <main class="content">
+            <article class="article">
+                <h1>Title</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, voluptatum?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa sed modi consectetur assumenda asperiores ea corrupti fuga qui, nihil, facere rem ratione mollitia expedita.
+                </p>
+            </article>
+            <article class="article">
+                <h1>Title</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, tempora!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quisquam mollitia iure, quasi similique veritatis qui tenetur officiis totam illum deserunt doloribus perferendis earum natus.
+                </p>
+            </article>
+            <article class="article">
+                <h1>Title</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, voluptatum?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa sed modi consectetur assumenda asperiores ea corrupti fuga qui, nihil, facere rem ratione mollitia expedita.
+                </p>
+            </article>
+            <article class="article">
+                <h1>Title</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, tempora!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro quisquam mollitia iure, quasi similique veritatis qui tenetur officiis totam illum deserunt doloribus perferendis earum natus.
+                </p>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <div>
+                <img src="http://placeimg.com/300/200/any" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, voluptatum?</p>
+            </div>
+            <div>
+                <img src="http://placeimg.com/300/200/city" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, possimus?</p>
+            </div>
+            <div>
+                <img src="http://placeimg.com/300/200/people" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, sed.</p>
+            </div>
+        </aside>
+
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+
+        <footer class="footer">
+            <h4>Footer</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, nam.</p>
+        </footer>
+
+
+
+    </div>
+
+
+</body>
+</html>
